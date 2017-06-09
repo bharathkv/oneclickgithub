@@ -4,5 +4,6 @@
     <img height="100%" src="https://s3.amazonaws.com/cloudformation-examples/cloudformation-launch-stack.png"/>
 </span>
 </a>
+
 # Instructions for launching in AWS Mobile Hub
 1. Please 
