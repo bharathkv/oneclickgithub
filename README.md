@@ -1,5 +1,6 @@
 # Launch in AWS Mobile Hub
-Use this button to import the AWS Mobile Hub configuration into your AWS Mobile Hub console <a href="https://console.aws.amazon.com/mobilehub/home?#/?config=https://github.com/bharathkv/oneclickgithub/blob/master/photoapptemplate.zip">
+Use this button to import the AWS Mobile Hub configuration into your AWS Mobile Hub console 
+<a href="https://console.aws.amazon.com/mobilehub/home?#/?config=https://github.com/bharathkv/oneclickgithub/blob/master/photoapptemplate.zip">
 <span>
     <img height="100%" src="https://s3.amazonaws.com/cloudformation-examples/cloudformation-launch-stack.png"/>
 </span>
