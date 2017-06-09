@@ -1,10 +1,13 @@
 # Launch in AWS Mobile Hub
-Use this button to import the AWS Mobile Hub configuration into your AWS Mobile Hub console 
+1. Use this button to import the AWS Mobile Hub configuration into your AWS Mobile Hub console 
 <a href="https://console.aws.amazon.com/mobilehub/home?#/?config=https://github.com/bharathkv/oneclickgithub/blob/master/photoapptemplate.zip">
 <span>
     <img height="100%" src="https://s3.amazonaws.com/cloudformation-examples/cloudformation-launch-stack.png"/>
 </span>
 </a>
+2. After importing the configuration into your AWS Mobile Hub console, download the sample app from the Getting Started instructions in the Integrate page.
+3. You can also integrate the AWS Mobile SDK into your application from the Integrate page.
+
 
 # Instructions for creating a Github sample to import projects from .zip file into Mobile Hub
 1. Please export your AWS Mobile Hub project by navigating to the project list in the Mobile Hub console and choosing Export in the upper right of the card for the project you want to export.
