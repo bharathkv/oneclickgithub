@@ -5,8 +5,12 @@
     <img height="100%" src="https://s3.amazonaws.com/cloudformation-examples/cloudformation-launch-stack.png"/>
 </span>
 </a>
-2. After importing the configuration into your AWS Mobile Hub console, download the sample app from the Getting Started instructions in the Integrate page.
-3. You can also integrate the AWS Mobile SDK into your application from the Integrate page.
+
+2. Please log into the AWS Mobile Hub console if your prompted to login.
+3. On logging into the AWS Mobile Hub console you will be provided with an option to name your imported project.
+4. After importing the configuration into your AWS Mobile Hub console, download the sample app from the Getting Started instructions in the Integrate page.
+5. You can also integrate the AWS Mobile SDK into your application from the Integrate page.
+6. You can also configure and add/remove any backend configuration for your mobile application from your project.
 
 
 # Instructions for creating a Github sample to import projects from .zip file into Mobile Hub
