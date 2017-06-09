@@ -1,6 +1,6 @@
 # Launch in AWS Mobile Hub
 1. Use this button to import the AWS Mobile Hub configuration into your AWS Mobile Hub console 
-<a href="https://console.aws.amazon.com/mobilehub/home?#/?config=https://github.com/bharathkv/oneclickgithub/blob/master/photoapptemplate.zip" target="_blank">
+<a href="https://console.aws.amazon.com/mobilehub/home?#/?config=https://github.com/bharathkv/oneclickgithub/blob/master/photoapptemplate.zip" target="_new">
 <span>
     <img height="100%" src="https://s3.amazonaws.com/deploytomh/button-deploy-aws-mh.png"/>
 </span>
