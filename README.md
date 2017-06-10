@@ -1,25 +1,35 @@
-# Launch in AWS Mobile Hub
-1. Use this button to import the AWS Mobile Hub configuration into your AWS Mobile Hub console 
+# Deploy to AWS Mobile Hub
+
+Click on the button below to import the AWS cloud components of this project into your AWS Mobile Hub console.
+
+<div style="text-align: center;">
 <a target="_blank" href="https://console.aws.amazon.com/mobilehub/home?#/?config=https://github.com/bharathkv/oneclickgithub/blob/master/photoapptemplate.zip">
 <span>
     <img height="100%" src="https://s3.amazonaws.com/deploytomh/button-deploy-aws-mh.png"/>
 </span>
 </a>
+</div>
 
-2. Please log into the AWS Mobile Hub console if your prompted to login.
-3. On logging into the AWS Mobile Hub console you will be provided with an option to name your imported project.
-4. After importing the configuration into your AWS Mobile Hub console, download the sample app from the Getting Started instructions in the Integrate page.
-5. You can also integrate the AWS Mobile SDK into your application from the Integrate page.
-6. You can also configure and add/remove any backend configuration for your mobile application from your project.
+When you click on the button above, you will be asked to log into the AWS console (if you are not already logged in).  Once logged in, you will be prompted to name the project.   Accept the name (or change it),
+then click **Import project**.
 
+This project consists of the following features:
 
-# Instructions for creating a Github sample to import projects from .zip file into Mobile Hub
-1. Please export your AWS Mobile Hub project by navigating to the project list in the Mobile Hub console and choosing Export in the upper right of the card for the project you want to export.
-2. Commit the .zip file to your Github repository.
-3. Create a link/button in the Github README file pointing to the following url: https://console.aws.amazon.com/mobilehub/home?#/?config=<GITHUB_URL_TO_ZIP_FILE>
+*  User Sign-in, powered by Amazon Cognito.
+*  NoSQL Database, powered by Amazon DynamoDB.
+*  User Data Storage, powered by Amazon S3.
 
-# Instructions for creating a Github sample to import projects from .yml file into Mobile Hub
-1. Please export your AWS Mobile Hub project by navigating to the project list in the Mobile Hub console and choosing Export in the upper right of the card for the project you want to export.
-2. Extract the .yml from the .zip file.
-3. Commit the .yml file to your Github repository.
-4. Create a link/button in the Github README file pointing to the following url: https://console.aws.amazon.com/mobilehub/home?#/?config=<GITHUB_URL_TO_YAML_FILE>
+After importing the project, click on **build my app** to reach the integration instructions.  You can
+either download a sample app which allows you to exercise each feature, or you can integrate the AWS
+Mobile SDK into your own app.
+
+## Create your own Deploy to AWS Mobile Hub button
+
+To create a **Deploy to AWS Mobile Hub** button, first export your AWS Mobile Hub project:
+
+1.  Log in to the AWS Console and select the [Mobile Hub console](https://console.aws.amazon.com/mobilehubhome?#/).
+2.  Click the triple-dots in the top-right corner of the card for the project you wish to export.
+3.  Click **Export (file)**.
+4.  You will download a ZIP file containing the exported site.  You can unpack this ZIP file and modify the contents, but be careful to pack the ZIP file back up again such that the directory structure is identical to the original file.
+5.  Check the ZIP file in to your GitHub repository.
+6.  Add a button to your README.md file.   Use the button above as a model for creating your own button.
