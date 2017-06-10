@@ -2,13 +2,13 @@
 
 Click on the button below to import the AWS cloud components of this project into your AWS Mobile Hub console.
 
-<div style="text-align: center;">
+<p align="center">
 <a target="_blank" href="https://console.aws.amazon.com/mobilehub/home?#/?config=https://github.com/bharathkv/oneclickgithub/blob/master/photoapptemplate.zip">
 <span>
     <img height="100%" src="https://s3.amazonaws.com/deploytomh/button-deploy-aws-mh.png"/>
 </span>
 </a>
-</div>
+</p>
 
 When you click on the button above, you will be asked to log into the AWS console (if you are not already logged in).  Once logged in, you will be prompted to name the project.   Accept the name (or change it),
 then click **Import project**.
